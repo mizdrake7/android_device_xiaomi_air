@@ -19,6 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 # Enforce generic ramdisk allow list
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 
+# Enable project quotas and casefolding for emulated storage without sdcardfs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # A/B
 PRODUCT_PACKAGES += \
     update_engine \
