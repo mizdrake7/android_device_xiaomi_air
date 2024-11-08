@@ -68,6 +68,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_KERNEL_CONFIG := air_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/air
+BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkboot/bootimg.mk
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
