@@ -35,3 +35,5 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
