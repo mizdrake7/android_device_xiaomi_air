@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.mt6835
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+PRODUCT_PACKAGES := \
     bootctrl.mt6835 \
     libgptutils \
     libz \
