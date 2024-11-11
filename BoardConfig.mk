@@ -22,9 +22,10 @@ AB_OTA_PARTITIONS += \
     odm \
     vbmeta_vendor \
     boot \
+    vendor_boot \
     odm_dlkm
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
-BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
+BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 
 # Architecture
 TARGET_ARCH := arm64
