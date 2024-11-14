@@ -9,3 +9,6 @@ LOCAL_PATH := device/xiaomi/air
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
+
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
