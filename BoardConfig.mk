@@ -25,6 +25,22 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# Partitions
+AB_OTA_UPDATER := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+AB_OTA_PARTITIONS += \
+    boot \
+    product \
+    system \
+    system_ext \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor \
+    vendor \
+    vendor_boot \
+    vendor_dlkm \
+    system_dlkm
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := air
 TARGET_NO_BOOTLOADER := true
