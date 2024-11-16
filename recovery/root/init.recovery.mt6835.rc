@@ -18,3 +18,14 @@ on post-fs
 
     symlink /dev/block/mapper/pl_a /dev/block/by-name/preloader_raw_a
     symlink /dev/block/mapper/pl_b /dev/block/by-name/preloader_raw_b
+
+service boot-hal-1-2 /system/bin/android.hardware.boot@1.2-service
+    interface android.hardware.boot@1.0::IBootControl default
+    interface android.hardware.boot@1.1::IBootControl default
+    interface android.hardware.boot@1.2::IBootControl default
+    user root
+    group root
+    seclabel u:r:recovery:s0
+
+on boot
+    start boot-hal-1-2
