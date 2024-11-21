@@ -15,6 +15,8 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from air device
 $(call inherit-product, device/xiaomi/air/device.mk)
 
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/prebuilt/dtb:dtb.img
+
 PRODUCT_DEVICE := air
 PRODUCT_NAME := twrp_air
 PRODUCT_BRAND := Redmi
