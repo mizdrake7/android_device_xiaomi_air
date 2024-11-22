@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_air.mk
+    $(LOCAL_DIR)/pb_air.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_air-user \
-    twrp_air-userdebug \
-    twrp_air-eng
+    pb_air-user \
+    pb_air-userdebug \
+    pb_air-eng
