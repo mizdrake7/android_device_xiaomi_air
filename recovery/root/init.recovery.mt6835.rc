@@ -11,3 +11,4 @@ service boot-hal-1-2 /system/bin/android.hardware.boot@1.2-service
 
 on boot
     start boot-hal-1-2
+    start health-hal-2-1
