@@ -31,6 +31,10 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 # Board Info
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
+# Crypto
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+
 # Partitions
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
