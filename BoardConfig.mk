@@ -165,6 +165,8 @@ TW_FRAMERATE := 90
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone3/temp"
 TW_EXCLUDE_APEX := true
 TW_INCLUDE_NTFS_3G := true
+TW_INCLUDE_RESETPROP := true
+TW_INCLUDE_REPACKTOOLS := true
 
 # Logcat
 TWRP_INCLUDE_LOGCAT := true
