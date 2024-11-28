@@ -163,6 +163,7 @@ TW_DEFAULT_BRIGHTNESS := 1200
 TW_MAX_BRIGHTNESS := 2047
 TW_FRAMERATE := 90
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone3/temp"
+TW_EXCLUDE_APEX := true
 
 # Logcat
 TWRP_INCLUDE_LOGCAT := true
