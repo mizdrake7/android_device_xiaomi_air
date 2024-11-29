@@ -74,7 +74,8 @@ BOARD_RAMDISK_USE_LZ4 := true
 BOARD_KERNEL_CMDLINE += \
     bootopt=64S3,32N2,64N2 \
     androidboot.selinux=permissive \
-    androidboot.init_fatal_reboot_target=recovery
+    androidboot.init_fatal_reboot_target=recovery \
+    kpti=off
 
 BOARD_MKBOOTIMG_ARGS += \
     --header_version $(BOARD_BOOT_HEADER_VERSION) \
