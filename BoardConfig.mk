@@ -77,7 +77,8 @@ BOARD_KERNEL_CMDLINE += \
     androidboot.init_fatal_reboot_target=recovery \
     kpti=off \
     quiet \
-    loglevel=3
+    loglevel=3 \
+    cgroup_disable=pressure
 
 BOARD_MKBOOTIMG_ARGS += \
     --header_version $(BOARD_BOOT_HEADER_VERSION) \
