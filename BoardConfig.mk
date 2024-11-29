@@ -80,7 +80,8 @@ BOARD_KERNEL_CMDLINE += \
     loglevel=3 \
     cgroup_disable=pressure \
     cgroup.memory=nokmem \
-    nosocket
+    nosocket \
+    nodebugmon
 
 BOARD_MKBOOTIMG_ARGS += \
     --header_version $(BOARD_BOOT_HEADER_VERSION) \
