@@ -81,7 +81,8 @@ BOARD_KERNEL_CMDLINE += \
     cgroup_disable=pressure \
     cgroup.memory=nokmem \
     nosocket \
-    nodebugmon
+    nodebugmon \
+    noirqdebug
 
 BOARD_MKBOOTIMG_ARGS += \
     --header_version $(BOARD_BOOT_HEADER_VERSION) \
