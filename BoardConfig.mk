@@ -34,6 +34,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
+TW_USE_FSCRYPT_POLICY := 2
 
 # Partitions
 AB_OTA_UPDATER := true
