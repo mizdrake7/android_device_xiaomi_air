@@ -1162,14 +1162,6 @@ vendor/etc/init/muxreport.rc
 vendor/etc/init/networksetting.rc
 vendor/etc/MNL_Config.xml
 vendor/etc/ecc_list.xml
-vendor/etc/ecc_list_OP01.xml
-vendor/etc/ecc_list_OP02.xml
-vendor/etc/ecc_list_OP09.xml
-vendor/etc/ecc_list_OP12.xml
-vendor/etc/ecc_list_OP17.xml
-vendor/etc/ecc_list_OP18.xml
-vendor/etc/ecc_list_OP20.xml
-vendor/etc/ecc_list_OP236.xml
 vendor/etc/ecc_list_preference.xml
 vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
