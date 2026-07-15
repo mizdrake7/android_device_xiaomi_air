@@ -269,6 +269,10 @@ ro.vendor.mtk_tee_gp_support=1
 ro.vendor.mtk_microtrust_tee_support=1
 ro.vendor.mtk_mitee_support=1
 
+# USB
+ro.vendor.usb.kpoc_adb=0
+vendor.usb.controller=11201000.usb0
+
 # WiFi
 ro.vendor.wifi.sap.concurrent.iface=ap1
 ro.vendor.wifi.sap.interface=ap0
