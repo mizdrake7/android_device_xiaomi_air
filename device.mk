@@ -116,6 +116,9 @@ BOARD_SHIPPING_API_LEVEL := 33
 PRODUCT_PACKAGES += \
     com.android.hardware.drm.clearkey
 
+# Disable EPPE
+TARGET_DISABLE_EPPE := true
+
 # Fastboot
 PRODUCT_PACKAGES += \
     android.hardware.fastboot-service.example_recovery \
