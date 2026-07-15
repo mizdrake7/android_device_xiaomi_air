@@ -119,6 +119,10 @@ PRODUCT_PACKAGES += \
 # Disable EPPE
 TARGET_DISABLE_EPPE := true
 
+# Enable whole-program R8 Java optimizations for SystemUI and system_server
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+
 # Fastboot
 PRODUCT_PACKAGES += \
     android.hardware.fastboot-service.example_recovery \
