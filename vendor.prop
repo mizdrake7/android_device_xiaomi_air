@@ -137,6 +137,7 @@ ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.recordable=false
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.framebuffer_target=false
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.hal_format=0x1
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.recordable=true
+ro.custom.blur.enable=true
 
 # HWUI
 ro.hwui.render_ahead=5
