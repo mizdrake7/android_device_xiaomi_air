@@ -128,7 +128,9 @@ ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.hal_format=0x1
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.recordable=true
 
 # HWUI
+ro.hwui.render_ahead=5
 debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # IMS
 persist.vendor.anr.enhancement=0
