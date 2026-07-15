@@ -92,6 +92,9 @@ persist.sys.fuse.passthrough.enable=true
 # Gatekeeper
 ro.hardware.gatekeeper=mitee
 
+# Gboard configuration
+ro.com.google.ime.kb_pad_port_b=1
+
 # GNSS
 ro.vendor.gps.chrdev=gps_drv_stp
 
