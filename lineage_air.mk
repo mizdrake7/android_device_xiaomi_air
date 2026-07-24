@@ -19,4 +19,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23124RN87G
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="air_global-user 15 AP3A.240905.015.A23 OS2.0.206.0.VGQMIXM release-keys" \
+    BuildFingerprint=Redmi/air_global/air:15/AP3A.240905.015.A2/OS2.0.206.0.VGQMIXM:user/release-keys
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
