@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="config_deviceImageDrawable" type="drawable">@drawable/air</item>
+</resources>

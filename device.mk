@@ -221,10 +221,11 @@ PRODUCT_PACKAGES += \
     SettingsResOverlayAir \
     SystemUIOverlayAir \
     TetheringConfigOverlayAir \
-    WifiOverlayAir
-
-PRODUCT_PACKAGES += \
+    WifiOverlayAir \
     NcmTetheringOverlay
+
+PRODUCT_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
