@@ -30,6 +30,7 @@ genfscon sysfs /devices/platform/soc/11f04000.i2c/i2c-12/12-0055/power_supply/ba
 genfscon sysfs /devices/platform/soc/1c804000.spmi/spmi-0/0-04/mt6377-gauge/power_supply/battery u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/platform/soc/1c804000.spmi/spmi-0/0-04/mt6377-gauge/power_supply/mtk-gauge u:object_r:sysfs_power_supply:s0
 genfscon sysfs /devices/virtual/power_supply/mtk-gauge u:object_r:sysfs_power_supply:s0
+genfscon sysfs /devices/platform/soc/1c804000.spmi/spmi-0/0-04/mt6377-gauge/power_supply/battery/input_suspend u:object_r:sysfs_battery_writable:s0
 
 # MT6375 Charger / RT9490
 genfscon sysfs /devices/platform/11e01000.i2c/i2c-5/5-0034/11e01000.i2c:mt6375@34:chg/power_supply/11e01000.i2c:mt6375@34:chg u:object_r:sysfs_power_supply:s0
