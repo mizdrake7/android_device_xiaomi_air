@@ -346,6 +346,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
 
+# ViPER4Android FX
+ifneq ("$(wildcard packages/apps/ViPER4AndroidFX/config.mk)", "")
+$(warning Enabling Viper4Android audio effect.)
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+endif
+
 # WiFi
 $(call soong_config_set_bool,mediatek_wifi_hal,use_pre_u_qpr2_struct,true)
 
