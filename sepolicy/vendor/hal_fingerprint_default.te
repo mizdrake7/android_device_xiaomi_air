@@ -1,1 +1,9 @@
 allow hal_fingerprint_default goodix_fingerprint_hwservice:hwservice_manager find;
+set_prop(hal_fingerprint_default, vendor_silead_fp_prop)
+allow hal_fingerprint_default silead_fpd_device:chr_file {
+    ioctl
+    open
+    read
+    write
+    getattr
+};

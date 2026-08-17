@@ -44,6 +44,8 @@
 
 # Fingerprint
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi u:object_r:hal_fingerprint_default_exec:s0
+/dev/silead_fp                        u:object_r:silead_fpd_device:s0
+/dev/silead_stub                      u:object_r:silead_fpd_device:s0
 
 # Keymint
 /(vendor|system/vendor)/bin/hw/android.hardware.security.keymint@2.0-service.mitee                     u:object_r:hal_keymint_default_exec:s0
