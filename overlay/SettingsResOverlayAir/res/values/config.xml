@@ -14,4 +14,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+
+     <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
+
+    <!-- Battery Health enable -->
+    <bool name="config_supportBatteryHealth">true</bool>
+
+<!-- Battery Health -->
+<string name="config_batteryCalculatedCapacity">/sys/class/power_supply/battery/charge_full</string>
+<string name="config_batteryDesignCapacity">/sys/class/power_supply/battery/charge_full_design</string>
+<string name="config_batteryChargeCycles">/sys/class/power_supply/battery/cycle_count</string>
 </resources>

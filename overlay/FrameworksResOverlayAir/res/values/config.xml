@@ -447,4 +447,9 @@
     <!-- Whether WM DisplayContent supports high performance transitions
          (lower-end devices may want to disable) -->
     <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
+
+    <!-- Whether device supports OEM fast charge -->
+    <string-array name="config_oemFastChargerStatusPaths" translatable="false">
+         <item>/sys/devices/platform/charger/fast_chg_indicator;4</item>
+    </string-array>
 </resources>
